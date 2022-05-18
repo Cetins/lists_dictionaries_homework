@@ -71,6 +71,13 @@ lottery_list = users["Erik"]["lottery_numbers"]
 lottery_list.sort()
 print(lottery_list[0])
 
+# #second approach
+# users["Erik"]["lottery_numbers"].sort()
+# print(users["Erik"]["lottery_numbers"][0])
+
+# #third approach
+# print(min(users["Erik"]["lottery_numbers"]))
+
 # 6. Return an list of Avril's lottery numbers that are even
 avril_lottery = users["Avril"]["lottery_numbers"]
 
